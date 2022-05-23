@@ -1,3 +1,46 @@
-.addTask {
-  /* Sample */
+.todoForm {
+  margin-left: 35%;
+  width: 25%;
+  text-align: center;
+  margin-top: 80px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  background-color: white;
+  overflow: hidden;
+  position: relative;
+  
+
+}
+.heading {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-image: linear-gradient(135deg, #79f1a4 10%, #0e5cad 100%);
+}
+.heading h1{
+  color: white;
+}
+.heading h3{
+  color: white;
+}
+.todoForm input{
+  padding-top: 24px;
+  width: 90%;
+  height: 40px;
+  border: none;
+  font-size: 20px;
+}
+.todoForm button{
+  height: 42px;
+  width: 10%;
+  border: none;
+  font-size: 40px;
+  transition: 0.3s ease;
+  background-color: white;
+}
+.hr {
+  width: 100%;
+  border-style: none;
+  background-color: rgb(137, 130, 130);
 }
